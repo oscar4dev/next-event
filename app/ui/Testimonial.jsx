@@ -110,7 +110,7 @@ export default function Testimonial() {
                   return <button
                      key={ i }
                      onClick={ () => setCurrentIndex(i) }
-                     className={ `${ currentIndex === i ? 'bg-green-500' : '' } h-4 w-4 rounded-full bg-slate-900` }
+                     className={ `h-4 w-4 rounded-full bg-slate-900 ${ currentIndex === i ? 'bg-blue-500' : '' }` }
                   ></button>
                })
             }
